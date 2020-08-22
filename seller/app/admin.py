@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Seller, Order
 
-# Register your models here.
+## Models registration on /admin
+admin.site.register(Seller)
+admin.site.register(Order)
